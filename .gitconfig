@@ -1,0 +1,9 @@
+[user]
+  name = s0pau
+  email = sts.pau@gmail.com
+[color]
+    ui = auto
+[core]
+    excludesfile = ~/.gitignore
+[push]
+    default = tracking
