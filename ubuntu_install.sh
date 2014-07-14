@@ -1,3 +1,7 @@
+###
+### For Debian-based systems (Ubuntu, Mint, etc.):
+###
+
 # install common utils
 sudo apt-get install curl wget tree vim exuberant-ctags tmux
 sudo apt-get install tmux

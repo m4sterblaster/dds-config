@@ -1,5 +1,9 @@
+###
+### For Red Hat-based systems (Red Hat, Fedora, CentOS):
+###
+
 # install -y common utils
-sudo yum install -y curl wget tree vim exuberant-ctags tmux
+sudo yum install -y curl wget tree vim ctags tmux
 sudo yum install -y tmux
 
 # set vim as default editor
