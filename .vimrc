@@ -13,6 +13,14 @@ set shiftwidth=2
 set list
 set listchars=tab:▸\ ,trail:·
 
+" Colour Scheme
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+  endif
+syntax enable
+set background=dark
+colorscheme harlequin
+
 "Required by vimClojure.vim
 syntax on
 filetype plugin indent on
@@ -24,6 +32,8 @@ au BufRead,BufNewFile *.hbs,*.erb setfiletype html
 " NERDTree configs
 let NERDChristmasTree=1
 let NERDTreeShowBookmarks=1
+let NERDTreeShowHidden=1
+
 " Start NERDTree and move cursor to main window 
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
